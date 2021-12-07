@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.page {
+  width: 1000px;
+  height: 1000px;
+}
+body {
+  background-repeat: repeat;
+  background-size: contain;
+  height: 10px;
+}
+div.instructions {
+  width: 100%;
+  color: chartreuse;
+  margin: 10px;
+}
+div.instructions2 {
+  width: 100%;
+  color: chartreuse;
+  background-color: black;
+  margin: 10px;
+  height: auto;
+}
+textarea.english {
+  width: 100%;
+  margin: 10px;
+}
+textarea.pigLatin {
+  width: 100%;
+  margin: 10px;
+  height: fit-content;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+img.ptb {
+  width: 5pc;
+  height: 5pc;
+}
+
+.title {
+  text-align: center;
+  font-family: cursive;
+}
+div.warning {
+  width: 100%;
+  color: red;
+  background-color: black;
+}
+
+.container {
+  border: 3px solid #fff;
+  padding: 20px;
+  background-color: darkgray;
+  text-align: center;
+  display: inline-flex;
+}
+
+output.paragraph {
+  /* float: left;
+    padding: 50px; */
+  text-align: center;
+  width: 50%;
+  background-color: rgb(70, 67, 67);
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+output.paragraph2 {
+  /* float: left;
+    padding: 50px; */
+  text-align: center;
+  width: 50%;
+  background-color: rgb(70, 67, 67);
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  display: flex;
+}
+
+div.flex-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  background-color: darkgray;
+  text-align: center;
+  display: flex;
+}
+
+output.result {
+  border: 3px solid #fff;
+  padding: 20px;
+  background-color: darkgray;
+  text-align: center;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid rgb(66, 64, 64);
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
