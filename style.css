@@ -11,6 +11,7 @@ body {
 div.instructions {
   width: 100%;
   color: chartreuse;
+  background-color: black;
   margin: 10px;
 }
 div.instructions2 {
